@@ -1,9 +1,9 @@
 {
-  "name": "FactorioOrion",
+  "name": "DiplomacyFactorio",
   "version": "0.1.9",
-  "title": "FactorioOrion",
+  "title": "DiplomacyFactorio",
   "author": "Qurao",
   "factorio_version": "1.1",
   "dependencies": ["base >= 1.1"],
-  "description": "Добавляет необходимую базу."
+  "description": "Добавляет дипломатию в вашу игру."
 }

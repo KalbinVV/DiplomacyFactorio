@@ -2,7 +2,7 @@ script.on_event(defines.events.on_player_created,
   function(event)
     player = game.get_player(event.player_index); -- Получаем игрока
     if player.force.name == "player" then
-    	player.print("Данный сервер использует мод, добавляющий возможности дипломатии в игру! Разработчик: Qurao.");
+    	player.print("Данный сервер использует мод, добавляющий дипломатию в игру! Разработчик: Qurao.");
     	player.force = game.create_force(player.name);
     	player.color = {g=math.random(0,255),b=math.random(0,255),r=math.random(0,255),a=1.0};
     	player.print("Ваша команда: " .. player.force.name);
